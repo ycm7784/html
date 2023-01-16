@@ -1,0 +1,104 @@
+*{
+    font-family: "맑은 고딕";
+}
+header{
+    background-color: aqua;
+    
+    height: 170px;
+    margin-left: 10px;
+}
+header div{
+    float: left;
+    text-align: center;
+    color: white;
+    
+}
+header p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:link,:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover,:active{
+    background-color: white;
+    color: aquamarine;
+}
+a{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+
+}
+nav{
+    background-color: aquamarine;
+    
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    clear: both;
+}
+section{
+    /* float: left; */
+    width: 45%;
+    margin: 10px;
+    height: auto;
+}
+section li{
+    margin-left: 50px;
+    line-height: 30px;
+}
+ol li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+table{
+    width: 120%;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+th,td{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+}
+thead{
+    background-color: aqua;
+}
+#i1{
+    border: solid 2px red;
+    border-width: 0px 0px 0px 10px;
+    
+}
+#i2{
+    border: solid 2px rgb(212, 164, 164);
+    border-width: 0px 0px 0px 10px;
+}
+#i3{
+    border: solid 2px rgb(33, 182, 228);
+    border-width: 0px 0px 0px 10px;
+}
+#i4{
+    border: solid 2px rgb(20, 211, 30);
+    border-width: 0px 0px 0px 10px;
+}
+div{
+    font-size: 20px;
+    color: black;
+}
+.c1{
+    margin: 1px 1px 1px 30px;
+    color: green;
+}
+footer{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    clear: both;
+
+}
